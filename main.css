@@ -1,0 +1,13 @@
+.product {
+    float: left;
+    width: 33.33%; 
+    box-sizing: border-box;
+    padding: 10px; 
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
